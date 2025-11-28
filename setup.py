@@ -26,6 +26,9 @@ setup(
         'console_scripts': [
             'battery_charger = robot_actions.battery_charger:main',
             'battery_client = robot_actions.battery_client:main',
+            'battery_charger_queue = robot_actions.battery_charger_queue:main',
+            'battery_charger_preempt = robot_actions.battery_charger_preempt:main',
+            'battery_charger_reject = robot_actions.battery_charger_reject:main',
         ],
     },
 )
